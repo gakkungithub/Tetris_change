@@ -69,7 +69,7 @@ public class Mino : MonoBehaviour
                 AddToGrid();
                 CheckLines();
                 this.enabled = false;
-                FindObjectOfType<SpawnMino>().NewMino(FindObjectOfType<NextMino>().NextMinoUpdate()); //落ちてからミノ発生メソッドを呼ぶことでみのを作成する
+                FindObjectOfType<SpawnMino>().NewMino(FindObjectOfType<ShowNextMino>().NextMinoUpdate()); //落ちてからミノ発生メソッドを呼ぶことでみのを作成する
             }
             previousTime = Time.time; //ここのTime.timeはゲーム内の時間でリアル時間でないことに注意
 

@@ -1613,7 +1613,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1127762137}
-  - component: {fileID: 1127762136}
+  - component: {fileID: 1127762138}
   m_Layer: 0
   m_Name: NextMino
   m_TagString: Untagged
@@ -1621,28 +1621,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1127762136
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1127762135}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cca755eaec381bf49bce697c3307e559, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  NextMinos:
-  - {fileID: 21300000, guid: be0a97165428e244bad73ee2c26238a6, type: 3}
-  - {fileID: 21300000, guid: 9c14e5e61e71bc1419d8a2bb85ea6a08, type: 3}
-  - {fileID: 21300000, guid: d7b86a5def6f5ae47bac631d8812371c, type: 3}
-  - {fileID: 21300000, guid: 9634c458c5ae80f4b91b83182d99b759, type: 3}
-  - {fileID: 21300000, guid: 0e4d6240fccf65e4bb76dacb8aa0fa69, type: 3}
-  - {fileID: 21300000, guid: b2700934892633945b0476f320102bce, type: 3}
-  - {fileID: 21300000, guid: eb4a9d7e094818640b6086e0dc54e7e1, type: 3}
-  Mino_image: {fileID: 571694258}
-  minoNum: 0
 --- !u!4 &1127762137
 Transform:
   m_ObjectHideFlags: 0
@@ -1658,6 +1636,28 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1127762138
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1127762135}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a73be74354f8ba64885eb2524767873b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  NextMinos:
+  - {fileID: 21300000, guid: be0a97165428e244bad73ee2c26238a6, type: 3}
+  - {fileID: 21300000, guid: 9c14e5e61e71bc1419d8a2bb85ea6a08, type: 3}
+  - {fileID: 21300000, guid: d7b86a5def6f5ae47bac631d8812371c, type: 3}
+  - {fileID: 21300000, guid: 9634c458c5ae80f4b91b83182d99b759, type: 3}
+  - {fileID: 21300000, guid: 0e4d6240fccf65e4bb76dacb8aa0fa69, type: 3}
+  - {fileID: 21300000, guid: b2700934892633945b0476f320102bce, type: 3}
+  - {fileID: 21300000, guid: eb4a9d7e094818640b6086e0dc54e7e1, type: 3}
+  Mino_image: {fileID: 571694258}
+  minoNum: 0
 --- !u!1 &1211641506
 GameObject:
   m_ObjectHideFlags: 0

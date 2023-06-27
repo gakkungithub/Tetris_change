@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class NextMino : MonoBehaviour
+public class ShowNextMino : MonoBehaviour
 {
     public Sprite[] NextMinos;
     public Image Mino_image;
